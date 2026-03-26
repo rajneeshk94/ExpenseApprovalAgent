@@ -1,0 +1,10 @@
+[project]
+name = "ExpenseApprovalAgent"
+version = "0.0.4"
+description = "ExpenseApprovalAgent"
+authors = [{ name = "Rajneesh Khare", email = "rajneeshkhare04@gmail.com" }]
+dependencies = [
+    "uipath-openai-agents>=0.0.1, <0.1.0",
+    "PyPDF2>=3.0.1"
+]
+requires-python = ">=3.11"

@@ -1,0 +1,9 @@
+flowchart TB
+  __start__(__start__)
+  orchestrator(orchestrator)
+  orchestrator_tools(tools)
+  __end__(__end__)
+  orchestrator --> orchestrator_tools
+  orchestrator_tools --> orchestrator
+  __start__ --> |input|orchestrator
+  orchestrator --> |output|__end__
