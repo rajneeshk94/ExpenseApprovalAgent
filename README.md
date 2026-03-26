@@ -197,7 +197,7 @@ If not already configured, follow these steps:
 
 ````json
 {
-    "messages":"Expense_Claim.pdf"
+    "messages": "Check the expense claim for the file Expense_Claim.pdf"
 }
 ````
 
